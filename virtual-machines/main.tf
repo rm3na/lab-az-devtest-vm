@@ -2,7 +2,10 @@ data "terraform_remote_state" "vnet" {
   backend = "local"
 
   config = {
-    path = "${path.module}/../vnet/terraform.tfstate"
+    organization = "Nterone"
+    workspaces = {
+       name = "lab-az-devtest-net-step1"
+    }
   }
 }
 
