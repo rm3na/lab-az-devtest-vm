@@ -1,3 +1,7 @@
+provider "azurerm" {
+  version = "<=1.34.0"
+  features {}
+}
 
 locals {
   tags = merge({ creationSource = "terraform" }, var.tags_map)
