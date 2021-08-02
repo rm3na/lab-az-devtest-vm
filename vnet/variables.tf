@@ -14,6 +14,5 @@ variable "location" {
 }
 
 variable "tags_map" {
-  #description = "(Required) Map of tags for the deployment"
-  Name = "MyVPC"
+  description = "(Required) Map of tags for the deployment"
 }
