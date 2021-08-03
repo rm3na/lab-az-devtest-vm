@@ -16,3 +16,19 @@ variable "location" {
 variable "tags_map" {
   description = "(Required) Map of tags for the deployment"
 }
+
+variable "subscription_id" {
+  description = "(Required) Map of tags for the deployment"
+}
+
+variable "client_id" {
+  description = "(Required) Map of tags for the deployment"
+}
+
+variable "client_secret" {
+  description = "(Required) Map of tags for the deployment"
+}
+
+variable "tenant_id" {
+  description = "(Required) Map of tags for the deployment"
+}
