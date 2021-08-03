@@ -8,9 +8,9 @@ variable "image" {
   type        = map(string)
   description = "To provision vm from an Azure Platform Image"
   default = {
-    publisher = "microsoftvisualstudio"
-    offer     = "visualstudio2019latest"
-    sku       = "vs-2019-comm-latest-win10-n"
+    publisher = "MicrosoftWindowsServer"
+    offer     = "WindowsServer"
+    sku       = "2019-Standard"
     version   = "latest"
   }
 }
