@@ -46,7 +46,7 @@ resource "azurerm_public_ip" "ip" {
   location            = local.location
   resource_group_name = local.resource_group
   allocation_method   = "Dynamic"
-  domain_name_label   = local.uniqued_name
+  #domain_name_label   = local.uniqued_name
 
   tags = local.tags
 }
