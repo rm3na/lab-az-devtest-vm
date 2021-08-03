@@ -24,7 +24,7 @@ locals {
   location       = data.terraform_remote_state.vnet.outputs.location
   resource_group = data.terraform_remote_state.vnet.outputs.resource_group
   name           = data.terraform_remote_state.vnet.outputs.name
-  uniqued_name   = "${data.terraform_remote_state.vnet.outputs.name}${random_integer.int.result}"
+  uniqued_name   = "POCdomain"
   tags           = data.terraform_remote_state.vnet.outputs.tags
 }
 
