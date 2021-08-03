@@ -29,3 +29,19 @@ variable "boot_diagnostics" {
   description = "(Optional) Enable or Disable boot diagnostics"
   default     = "true"
 }
+
+variable "subscription_id" {
+  description = "(Required) Map of tags for the deployment"
+}
+
+variable "client_id" {
+  description = "(Required) Map of tags for the deployment"
+}
+
+variable "client_secret" {
+  description = "(Required) Map of tags for the deployment"
+}
+
+variable "tenant_id" {
+  description = "(Required) Map of tags for the deployment"
+}
