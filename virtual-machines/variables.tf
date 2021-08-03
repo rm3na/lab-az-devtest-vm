@@ -10,7 +10,7 @@ variable "image" {
   default = {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
-    sku       = "2019-Standard"
+    sku       = "2016-Datacenter"
     version   = "latest"
   }
 }
