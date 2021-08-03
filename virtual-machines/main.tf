@@ -12,6 +12,7 @@ data "terraform_remote_state" "vnet" {
   backend = "remote"
 
   config = {
+    hostname = "app.terraform.io"
     organization = "Nterone"
     workspaces = {
        name = "lab-az-devtest-net-step1"
